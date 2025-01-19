@@ -1,4 +1,41 @@
 JS > INTERAÇÕES > MENUS/ANIMAÇOES/POPUPS/VALIDAÇOES
-HTML > CONTEUDOS > TEXTOS/IMAGENS/VIDEOS/TABELAS
-CSS > DESIGN > CORES/SOMBRAS/TAMANHOS/POSICIONAMENTOS
 
+
+
+
+
+
+
+
+
+------------------------------------------------
+HTML > CONTEUDOS > TEXTOS/IMAGENS/VIDEOS/TABELAS
+<H1> EXEMPLO DE TITULO </H1>
+<P> PARAGRAFO </P>
+<img src="foto.png" alt="exemplo de foto">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  *CABEÇA* <head>
+  *ACENTOS ETC <meta charset="UTF-8">
+  *TAMANHO DA PAGINA <meta name="viewport"
+                     content="width=divice-width,
+                     initial-scale=1.0">
+                      <title>  Document  </title>
+*CABEÇA* </head>
+  *CORPO* <body>
+
+<h1> OLÁ, MUNDO </H1>
+
+  *CORPO* </body>
+</html>
+
+
+
+------------------------------------------------
+CSS > DESIGN > CORES/SOMBRAS/TAMANHOS/POSICIONAMENTOS
+h1{
+font-family: Arial;
+font-size: 20pt;
+color: blue;
+}
