@@ -160,18 +160,68 @@ print(meu_modulo.saudacao("Mundo"))
 8. Tratamento de Exceções
 Try, Except, Finally
 
+try:
+    resultado = 10 / 0
+except ZeroDivisionError:
+    print("Erro: Divisão por zero!")
+finally:
+    print("Operação finalizada.")
 ------------------------------------------------------------------------------------
+9. Programação Orientada a Objetos
+Classes e Objetos
+
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def saudacao(self):
+        return f"Olá, meu nome é {self.nome} e eu tenho {self.idade} anos."
+
+joao = Pessoa("João", 25)
+print(joao.saudacao())
+
+----Herança
+
+class Estudante(Pessoa):
+    def __init__(self, nome, idade, matricula):
+        super().__init__(nome, idade)
+        self.matricula = matricula
+
+    def saudacao(self):
+        return f"Olá, meu nome é {self.nome}, eu tenho {self.idade} anos e minha matrícula é {self.matricula}."
+
+maria = Estudante("Maria", 22, "12345")
+print(maria.saudacao())
+
 
 ------------------------------------------------------------------------------------
+10. Bibliotecas Comuns
+------NumPy
 
-------------------------------------------------------------------------------------
+import numpy as np
+array = np.array([1, 2, 3, 4])
+print(array)
 
-------------------------------------------------------------------------------------
+----Pandas
 
-------------------------------------------------------------------------------------
+import pandas as pd
+dados = {"Nome": ["João", "Maria"], "Idade": [25, 22]}
+df = pd.DataFrame(dados)
+print(df)
 
-------------------------------------------------------------------------------------
+----Matplotlib
 
-------------------------------------------------------------------------------------
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
+plt.show()
 
-------------------------------------------------------------------------------------
+-----------------------------------------------------
+
+
+Conclusão
+Projetos Práticos
+Desenvolvimento Web com Django ou Flask
+Análise de Dados com Pandas e Matplotlib
+Automação de Tarefas com Scripts Python
+Use este esboço para criar um PDF bem estruturado e didático. Boa sorte nos seus estudos de Python!
