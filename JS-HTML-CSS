@@ -16,18 +16,18 @@ HTML > CONTEUDOS > TEXTOS/IMAGENS/VIDEOS/TABELAS
 
 <!DOCTYPE html>
 <html lang="pt-br">
-  *CABEÇA* <head>
+  *CABEÇA (CONFIGURAÇÃO DO SITE)* <head>
   *ACENTOS ETC <meta charset="UTF-8">
   *TAMANHO DA PAGINA <meta name="viewport"
                      content="width=divice-width,
                      initial-scale=1.0">
                       <title>  Document  </title>
-*CABEÇA* </head>
-  *CORPO* <body>
+*CABEÇA (CONFIGURAÇÃO DO SITE)* </head>
+  *CORPO (CONTEUDO DO SITE)* <body>
 
 <h1> OLÁ, MUNDO </H1>
 
-  *CORPO* </body>
+  *CORPO (CONTEUDO DO SITE)* </body>
 </html>
 
 
