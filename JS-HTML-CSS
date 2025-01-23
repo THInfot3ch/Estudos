@@ -25,13 +25,18 @@ HTML > CONTEUDOS > TEXTOS/IMAGENS/VIDEOS/TABELAS
 *CABEÇA (CONFIGURAÇÃO DO SITE)* </head>
   *CORPO (CONTEUDO DO SITE)* <body>
 
-<h1> OLÁ, MUNDO </H1>
-
+<h1> OLÁ, <br> (quebra de linha)
+MUNDO </H1>
+<hr> Linha orizontal 
   *CORPO (CONTEUDO DO SITE)* </body>
 </html>
 
-
-
+<hr> linha horizontal
+<br> quebra de linha
+&#X = COMANDO PARA EMOJI 
+emojipedia.org (codigo do emoji) ex: U+1F601 (usar apenas o 1F601)
+shift+alt+f = organizar codigos no visual cod
+crtl+space (dentro do comando img) = selecionar img
 ------------------------------------------------
 CSS > DESIGN > CORES/SOMBRAS/TAMANHOS/POSICIONAMENTOS
 h1{
